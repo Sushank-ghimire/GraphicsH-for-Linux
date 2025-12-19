@@ -1,0 +1,40 @@
+# =========================
+# Build artifacts
+# =========================
+build/
+*.o
+*.a
+*.so
+app
+
+# =========================
+# Debug files
+# =========================
+*.out
+*.log
+core
+vgcore.*
+
+# =========================
+# Editor / IDE files
+# =========================
+.vscode/
+*.swp
+*.swo
+*~
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# CMake (if used later)
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile.user
+
+*.exe
